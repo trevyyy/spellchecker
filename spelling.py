@@ -10,8 +10,6 @@ Refactored by Trevor Beers
 import re
 from collections import Counter
 
-
-# In practice, we would use a Moonpig-specific corpus, e.g. product titles/descriptions/tags
 with open("corpus.txt") as f:
     file = f.read()
 
